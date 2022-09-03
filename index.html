@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Xuất 3 số theo thứ tự tăng dần -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">3 số theo thứ tự tăng dần</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Number1</label>
+                <input id="num1" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number2</label>
+                <input id="num2" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number3</label>
+                <input id="num3" type="number" class="form-control" />
+              </div>
+              <button id="btnSapXep" class="btn btn-success">
+                Sắp Xếp
+              </button>
+            </div>
+            <div id="showInfoSapXep" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gửi lời Chào -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Gửi lời Chào</div>
+            <div class="card-body">
+              <div class="dropdown">
+                <!-- <input id="guiLoiChao" type="" class="form-control" /> -->
+                <div class="form-group">
+                  <label>Chọn thành viên</label>
+                  <select name="">
+                    <option value="Bố">Bố</option>
+                    <option value="Mẹ">Mẹ</option>
+                    <option value="Anh Trai">Anh Trai</option>
+                    <option value="Em Gái">Em Gái</option>
+                  </select>
+                </div>
+              </div>
+              <button id="btnGuiLoiChao" class="btn btn-success">
+                Gửi lời Chào
+              </button>
+            </div>
+            <div id="showInfoChao" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Đếm số chẵn lẻ -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Đếm số chẵn lẻ</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Number1</label>
+                <input id="Number1" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number2</label>
+                <input id="number2" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Number3</label>
+                <input id="number3" type="number" class="form-control" />
+              </div>
+              <button id="btnDemSo" class="btn btn-success">
+                Đếm
+              </button>
+            </div>
+            <div id="showInfoDSCL" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Xác định tam giác -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Đếm số chẵn lẻ</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>A</label>
+                <input id="canh1" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>B</label>
+                <input id="canh2" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>C</label>
+                <input id="canh3" type="number" class="form-control" />
+              </div>
+              <button id="btnTG" class="btn btn-success">
+                Xác định
+              </button>
+            </div>
+            <div id="showInfoTG" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Xác định hôm qua và ngày mai -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Lịch</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Day</label>
+                <input id="day" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Month</label>
+                <input id="month" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Year</label>
+                <input id="year" type="number" class="form-control" />
+              </div>
+              <button id="btnNgayHomQua" class="btn btn-success">
+                Ngày Hôm Qua
+              </button>
+              <button class="btn btn-success" id="btnNgayMai">
+                Ngày Mai
+              </button>
+            </div>
+            <div id="showInfoLich" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Xác định ngày -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Lịch</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Month</label>
+                <input id="month_1" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Year</label>
+                <input id="year_1" type="number" class="form-control" />
+              </div>
+              <button id="btnTinhNgay" class="btn btn-success">
+                Tính Ngày
+              </button>
+            </div>
+            <div id="showInfoTinhNgay" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Đếm số -->
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Số</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Đọc số</label>
+                <input id="docSo" type="number" class="form-control" />
+              </div>
+              <button id="btnDocSo" class="btn btn-success">
+                Đọc
+              </button>
+            </div>
+            <div id="showInfoDocSo" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
